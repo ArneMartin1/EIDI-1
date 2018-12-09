@@ -1,0 +1,14 @@
+Aufgabe 1:
+
+a) Mit dem Befehl "less dieDatei.txt"
+b) Mit dem Befehl "wc -mlw dieDatei.txt" (m=Zeichen: 2738, l=Zeilen:112, w=Worte:521)
+c) 
+   i)Die ersten 10 Zeilen mit "head -n5 dieDatei.txt", mit (nach n = 5,10 oder 15)
+  ii)Mit "tail -n +6 dieDatei.txt"
+ iii)Mit "head -n -5 dieDatei.txt"
+iiii)Mit "tail -n +11 dieDatei.txt | head -n -5"
+
+e) Mit "less -p Besen dieDatei.txt" (ja das wort kommt vor) oder "grep Besen dieDatei.txt"
+f) Mit "grep -c ich dieDatei.txt", "ich" kommt in 27 Zeilen vor
+g) Mit "grep -wc ich dieDatei.txt", das Wort "ich", ohne in einem anderen Wort eingebaut zu sein,  kommt in 9 Zeilen vor.
+h) Mit "grep -v Besen dieDatei.txt | grep -v ich". 

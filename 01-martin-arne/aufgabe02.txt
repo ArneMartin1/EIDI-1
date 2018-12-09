@@ -1,0 +1,13 @@
+a) Tilde in den Texteditor eingeben
+b) "mkdir eidi1" und dann "cd eidi1" eingeben, dann ist man im Ordner eidi1, dort dann "mkdir blatt01" eingeben. Das text file kann man mit dem Befehl touch erstellen 
+c) Mit dem Befehl find me.txt wird angezeigt wo sich das file befindet. Ansonst "cd ~" und eingeben und dann "ls" dann werden alle Files im Homeordner angezeigt.
+d) mit vi me.txt kann man "me.txt" im Editor öffnen (wo man dann seinen Text schreiben kann).
+e) "esc" und ":w" zum speichern und dann ":q" um den Editor zu verlassen. 
+f) Mit Firefox runter geladen und dann "cd Downloads" (damit man im richtigen Ordner ist) und dann "mv archiv01.tar.gz ~", jetzt ist es im Home Ordner.  
+g) tar. heißt "Tape Archiv", gz. bedeutet "gnu zip" und ist ein Standardwerkzeug zur Datenkompression. tar.gz ist die Kombination von beidem, ein komprimiertes Datenarchiv in geordneter Reihenfolge
+h) tar xvf archiv01.tar.gz eingeben, nach dem mit "man tar" die manpage aufgerufen wurde und die richtige Buchstabenkombination gefunden hat.
+i) "cp -a entpackt eidi1/blatt01" kopiert den ordener nach eidi1/blatt01.
+j) "cd eidi1/blatt01/enpackt" und dann "ls", damit wird einem der Inhalt des Ordners "entpackt" angezeigt
+k) Ín den Ordern gehen und dann "rm loeschMich.txt".
+l) "rm -r loeschMich" 
+m) "cp aufgabe02.txt eidi1/blatt01"

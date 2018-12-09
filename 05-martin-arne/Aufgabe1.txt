@@ -1,0 +1,11 @@
+a)
+Java arbeitet chronologisch von oben nach unten die Mainmethode ab, wenn in der Mainmethode eine andere Methode aufgerufen wird springt Java zu (bzw. in) diese Methode und führt sie aus. Anschließend führt es dann den nächsten Befehl in der Mainmethode aus. 
+
+b)
+Man kann einer Methode eine Variable übergeben welche diese Methode dann benutzt. Man muss dazu in den runden Klammern der Methode deklarieren mit was für einem Datentyp die Methode arbeiten soll. Wenn man dann die Methode aufruft schreibt man den Wert des entprechenden Datentyps in die runden Klammern und die Methode arbeitet dann mit genau diesem Wert. Den Datentyp den die Methode zurückgeben soll schreibt man vor den Namen der Methode. 
+
+c)
+Man kann den Rückgabewert einer Methode weiter verwenden wenn man ans Ende der Methode "return ;" schreibt. Die Methode liefert dann als Ausgabe den Wert den man hinter return schreibt.
+Um mit diesem Wert weitere Dinge anzustellen sollte man dann in der Mainmethode den Wert den die aufgerufenen Methode zurückgibt einer Variable zuweisen. Man deklariert also eine Variable und die Methode liefert den Wert der dieser Variable zugewiesen werden soll.   
+
+

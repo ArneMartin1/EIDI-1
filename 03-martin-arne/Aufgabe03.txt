@@ -1,0 +1,57 @@
+Aufgabe 3a:
+INPUT: x
+IF (x mod 2 == 0)
+	x:=x/2
+ELSE
+	x:= 3x+1
+END_IF
+OUTPUT: x
+
+
+
+Aufgabe 3b:
+INPUT: z		 			//z=Zahl
+t:=2						//t=Teiler
+IF (z<=1)
+	OUTPUT: Nein
+ELSE
+	IF (z==2)
+		OUTPUT: JA
+	END_IF
+ELSE
+	WHILE (t:<z)
+		IF (z mod t == 0)
+			OUTPUT: Nein
+			t:= z		 //Um die while-schleife zu verlassen
+		ELSE
+			a:=a+1
+			IF (z==a)
+				OUTPUT: Ja
+			END_IF
+		END_IF
+END_IF
+
+
+
+Aufgabe3c:
+INPUT: a				//a=a_i mit i Element [0,N-1]
+INPUT: b				//b=b_i mit i Element [0,N-1]
+i:=0					//Index-Zählvariable, i Element [0,N-1]
+ü:=0	
+WHILE (i<(N-1))				//Übertrag
+	c:= ü + a_i + b_i		//c=c_k mit k Element [0,1].k:=0
+	ü:=0
+	k:=0
+	OUPUT: c_k	//gibt die niedrigste Stelle der Addition von a_i + b_i aus
+		IF (c>1)
+			k:=1
+			ü:=c_k
+		END_IF
+	i:= i+1
+END_WHILE
+c:= ü + a_i + b_i			//c=c_k mit k Element [0,1].k:=0
+ü:=0
+k:=0
+OUPUT: c_k
+
+		

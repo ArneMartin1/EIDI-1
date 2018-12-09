@@ -1,0 +1,3 @@
+Mein Name ist Arne Martin und ich habe eine gute Dreivirtestunde gebraucht um so weit zu kommen dass ich diesen Text schreiben konnte. Ich bin 23 Jahre alt und studiere Elektrotechnik. Ich habe keine/rudimentäre Informatikkenntnisse. Ich habe mir ein paar Youtube Vidoes zum Javaprogrammieren angesehen und IntelliJ installiert und das  legendäre "Hello world" programmiert. Im Grunde finde ich Informatik interessant, habe aber so gut wie keine Erfahrung darin.
+
+ 
