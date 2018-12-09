@@ -1,0 +1,12 @@
+a)
+Hashcode wird dazu benutzt den Ort an dem Informationen über ein Objekt gespeichert sind zu kennzeichnen.
+Die Methode hashcode() gibt, wenn sie auf ein Objekt angewendet wird, eben diesen Code aus. Also quasi die Adresse des Objekts
+
+Die Methode equals() prüft (zu erst) ob zwei Objekte das selbe Objekt sind, also nicht ob sie den gleichen Inhalt haben z.B den selben String sondern ob sie in der selben Speicherzelle stehen. 
+
+Die Methode toString() gibt eine textliche Representation eines Objekts aus. Im Normalfall ist das: 
+<Name der Klasse>@<Hexadezimaldarstellung des Hashcodes des Objekts.
+
+
+b)
+Mit "System.out.println()" gibt man einen String aus, k1 ist aber ein Objekt, daher wird k1 als String reprensäntiert. Dies geschieht im Verborgenen mittels der toString()-Methode. Diese stellt k1 textlich dar, also als Klassenname@hascode. Dieser String wird dann von System.out.println() ausgegeben. 

@@ -1,0 +1,21 @@
+a)
+Klassenvariable:
+Eine Klassenvariable wird mit dem Schlüsselwort "static" gekennzeichnet. Es handelt sich heirbei um eine statische Variable die in der Klasse, in der sie verwendet wird unabhängig von einem Objekt existiert. Alle Methode der Klasse haben Zugriff auf die Variable und könne sie verändern. Eine Veränderung die eine Instanz der Klasse an der Klassenvariable vornimmt ist für alle anderen Instanzen die die Klassenvariable nutzen gültig. Eine Klassenvariable kann nur einmal pro Klasse existieren. Von außen wird auf eine Klassenvariable mittels <Klassenname>.<Klassenvariable>; zugegriffen.
+
+Klassenmethode:
+Klassenmethoden werden ebenfalls durch das Schlüsselwort "static" gekennzeichnet. Beispiele für Klassenmethoden sind Math. und System. Klassenmethoden sind nicht an ein Objekt der Klasse gebunden. Um zum Beispiel Math.sin(); zu verwenden muss vorher kein Objekt der Klasse Math instanziiert werden. Man kann die Methode losgelöst von Objekten der Klasse verwenden. Der Zugriff erfolt über <Klassenname>.<Methodenname>;
+
+Objektvariablen:
+Objektvariablen gehören zu einzelnen Objekten. Sie können mehrmals verwendet werden, da jedes Objekt seine eigene Objektvariablen hat. Man deklariert einen Objektvariable mit <Datentypt> <Name der Variable>;. Objektvariablen sind an die Java-Blockstruktur gebunden und wenn sie in Methoden deklariert werden existieren sie nur für die Lebensdauer der Methode.  
+
+Objektmethoden:
+Eine Objektmethode hat das Schlüsselwort "static" NICHT. Um eine Objektmethode nutzen zu können muss erst ein Objekt der Klasse in der die Methode lebt instanziiert werden. Man greift auf eine Objektmethode mit <Objektname>.<Objektmethode()>; zu.
+
+
+b)
+Überschreiben:
+Klassen in Java sind hierarchisch gegliedert und jede Klasse erbt die die Methoden der ihr höhergestellten Klasse. Man kann diese Methoden dann ohne weiteres verwenden. Ein Beispiel dafür ist die ".equals()"" Methode, die jede Klasse von der Klasse "Object" (der höchsten Javaklasse) erbt.  Wenn man die Methode  ".equals()" verwendet funktioniert sie genau so wie sie in der Klasse "Object" definiert worden ist. Will man dass siein der Klasse in der man sie benutzt anders funktioniert muss man sie mit einer neune Definition versehen - man überschreibt sie.  
+
+Überladen:
+Es ist möglich mehrere Methoden gleichen Namens und gleichen Rückgabetyps zu haben die unterschiedliche Parameter haben.
+Das bezeichnet man als "Überladen".    
